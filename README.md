@@ -49,13 +49,18 @@ If you want to learn more about building native executables, please consult http
 
 ## Related Guides
 
-- AWS Lambda HTTP ([guide](https://quarkus.io/guides/aws-lambda-http)): Allow applications written for a servlet container to run in AWS Lambda
-- RESTEasy Classic ([guide](https://quarkus.io/guides/resteasy)): REST endpoint framework implementing Jakarta REST and more
+- Funqy Knative Events Binding ([guide](https://quarkus.io/guides/funqy-knative-events)): Knative Events Binding for Quarkus Funqy framework
+- Funqy HTTP Binding ([guide](https://quarkus.io/guides/funqy-http)): HTTP Binding for Quarkus Funqy framework
 
 ## Provided Code
 
-### RESTEasy JAX-RS
+### Funqy Knative Events Binding example
 
-Easily start your RESTful Web Services
+This example contains a Quarkus Knative Funqy Function ready for Kubernetes or Openshift.
 
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+[Related guide section...](https://quarkus.io/guides/funqy-knative-events)
+
+You'll need to read the guide to learn how to deploy and run this example within a full Knative Kubernetes or OpenShift
+environment.
+
+This example is incomplete until you specify your docker.io account name within `src/main/k8s/funqy-service.yaml`.
